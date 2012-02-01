@@ -1,0 +1,37 @@
+/* jeelider.css */
+img { border:none; }
+.jeelider{ margin: 20px; }
+.frame-large{ width: 700px; background-color: #EEE; padding: 10px; }
+/* slider-large */
+#slider-container-large{ overflow: hidden; position: relative; width: 700px; height: 200px; }
+#slides-large{ position: absolute; }
+.slide-large{ position: relative; float: left; width: 700px; height: 200px; }
+.image-large{ position: relative; float: left; }
+.caption-large{ z-index: 100; position: absolute; bottom:0px; width:700px; height:40px; line-height:40px; background-color: #EEE; opacity:0.6; }
+.caption-large p{ margin:0 5px; padding:0; }
+.pages-large{ margin-top: 10px; }
+.pages-large ul{ margin: 0; padding: 0; }
+.pages-large li{ margin-right:5px; float:left; list-style:none; }
+.pages-large li a{ padding: 5px; text-decoration: none; background-color: #EEE; color: #000; }
+.pages-large li.active a{ background-color: #000; color: #EEE; }
+.pages-large li a:hover{ background-color: #000; color: #EEE; }
+.navigation-large a{ text-decoration: none; }
+.navigation-large .previous-button-large{ margin: 2px; }
+.navigation-large .next-button-large{ margin: 2px; }
+/* slider-small */
+.frame-small{ width: 500px; background-color: #EEE; padding: 10px; }
+#slider-container-small{ overflow: hidden; position: relative; width: 500px; height: 160px; }
+#slides-small{ position: absolute; }
+.slide-small{ position: relative; float: left; width: 500px; height: 160px; }
+.image-small{ position: relative; float: left; }
+.caption-small{ z-index: 100; position: absolute; bottom:0px; width:500px; height:40px; line-height:40px; background-color: #EEE; opacity:0.6; }
+.caption-small p{ margin:0 5px; padding:0; }
+.pages-small{ margin-top: 10px; }
+.pages-small ul{ margin: 0; padding: 0; }
+.pages-small li{ margin-right:5px; float:left; list-style:none; }
+.pages-small li a{ padding: 5px; text-decoration: none; background-color: #EEE; color: #000; }
+.pages-small li.active a{ background-color: #000; color: #EEE; }
+.pages-small li a:hover{ background-color: #000; color: #EEE; }
+.navigation-small a{ text-decoration: none; }
+.navigation-small .previous-button-small{ margin: 2px; }
+.navigation-small .next-button-small{ margin: 2px; }

@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>jeelider</title>
+<link rel="stylesheet" type="text/css" href="css/jeelider.css" />
+<script type="text/javascript" src="js/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="js/jeelider-1.0.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){	
+	$("#slides-large").jeelider({
+		name: 'jeelider-large',
+		slideClass: 'slide-large',
+		pageClass: 'pages-large',
+		prevNext: true,
+		prevNextClass: 'navigation-large',
+		prevClass: 'previous-button-large',
+		nextClass: 'next-button-large',
+		prevText: '< Previous',
+		nextText: 'Next >',
+		speed: 900,
+		interval: 3000
+	});
+	$("#slides-small").jeelider({
+		name: 'jeelider-small',
+		slideClass: 'slide-small',
+		pageClass: 'pages-small',
+		prevNext: true,
+		prevNextClass: 'navigation-small',
+		prevClass: 'previous-button-small',
+		nextClass: 'next-button-small',
+		prevText: '< Previous',
+		nextText: 'Next >',
+		speed: 1200,
+		interval: 4000
+	});
+});
+</script>
+</head>
+
+<body>
+	<div id="container">
+		<div class="jeelider">
+			<div class="frame-large">
+				<div id="slider-container-large">
+					<div id="slides-large">
+						<div class="slide-large">
+							<div class="image-large">
+								<a href="#"><img src="images/large01.jpg" alt="" /></a>
+							</div>
+							<div class="caption-large">
+								<p>Large Image 1</p>
+							</div>
+						</div>
+						<div class="slide-large">
+							<div class="image-large">
+								<a href="#"><img src="images/large02.jpg" alt="" /></a>
+							</div>
+							<div class="caption-large">
+								<p>Large Image 2</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="pages-large">
+			</div>
+			<div class="navigation-large">
+			</div>
+		</div>
+		<div class="jeelider">
+			<div class="frame-small">
+				<div id="slider-container-small">
+					<div id="slides-small">
+						<div class="slide-small">
+							<div class="image-small">
+								<a href="#"><img src="images/small01.jpg" alt="" /></a>
+							</div>
+							<div class="caption-small">
+								<p>Small Image 1</p>
+							</div>
+						</div>
+						<div class="slide-small">
+							<div class="image-small">
+								<a href="#"><img src="images/small02.jpg" alt="" /></a>
+							</div>
+							<div class="caption-small">
+								<p>Small Image 2</p>
+							</div>
+						</div>
+						<div class="slide-small">
+							<div class="image-small">
+								<a href="#"><img src="images/small03.jpg" alt="" /></a>
+							</div>
+							<div class="caption-small">
+								<p>Small Image 3</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="pages-small">
+			</div>
+			<div class="navigation-small">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
