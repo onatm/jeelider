@@ -63,7 +63,7 @@ $(document).ready(function(){
 						<a href="#"><img src="images/02.jpg" alt="" /></a>
 					</div>
 					<div class="caption-">
-						<p>Image 1</p>
+						<p>Image 2</p>
 					</div>
 				</div>
 			</div>
