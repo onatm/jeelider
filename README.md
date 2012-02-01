@@ -54,7 +54,7 @@ $(document).ready(function(){
 					<div class="image">
 						<a href="#"><img src="images/01.jpg" alt="" /></a>
 					</div>
-					<div class="caption-">
+					<div class="caption">
 						<p>Image 1</p>
 					</div>
 				</div>
@@ -62,7 +62,7 @@ $(document).ready(function(){
 					<div class="image">
 						<a href="#"><img src="images/02.jpg" alt="" /></a>
 					</div>
-					<div class="caption-">
+					<div class="caption">
 						<p>Image 2</p>
 					</div>
 				</div>
