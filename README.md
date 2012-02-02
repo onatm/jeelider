@@ -19,9 +19,13 @@ Jeelider is an oop jQuery image slider gallery.
 
 * jQuery 1.4 or newer.
 
-## Example
+## Demo
 
-Here a simple example of the usage of Jeelider:
+* You can find a demonstration @ <http://web.itu.edu.tr/~omercan/jeelider>
+
+## How to
+
+Here is a simple example of how to run an instance of Jeelider:
 
 * Javascript:
 
